@@ -111,9 +111,7 @@ def main():
             ],
         ],
         live=args.live,
-    ).launch(
-        debug=args.debug, share=args.share, server_port=args.port, enable_queue=True
-    )
+    ).launch(debug=args.debug, share=args.share, server_port=args.port)
 
 
 if __name__ == "__main__":

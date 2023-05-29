@@ -2,7 +2,7 @@
 [![PyPI version](https://badge.fury.io/py/anime-face-detector.svg)](https://pypi.org/project/anime-face-detector/)
 [![Downloads](https://pepy.tech/badge/anime-face-detector)](https://pepy.tech/project/anime-face-detector)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hysts/anime-face-detector/blob/main/demo.ipynb)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/hysts/anime-face-detector)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/edisonlee55/hysts-anime-face-detector)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/hysts/anime-face-detector.svg?style=flat-square&logo=github&label=Stars&logoColor=white)](https://github.com/hysts/anime-face-detector)
 
@@ -89,7 +89,7 @@ print(preds[0])
 (They will be automatically downloaded when you use them.)
 
 ## Demo (using [Gradio](https://github.com/gradio-app/gradio))
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/hysts/anime-face-detector)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/edisonlee55/hysts-anime-face-detector)
 
 ### Run locally
 ```bash
