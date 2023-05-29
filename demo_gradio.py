@@ -66,7 +66,7 @@ def main():
     parser.add_argument("--live", action="store_true")
     args = parser.parse_args()
 
-    sample_path = pathlib.Path("input.jpg")
+    sample_path = pathlib.Path("assets/input.jpg")
     if not sample_path.exists():
         torch.hub.download_url_to_file(
             "https://raw.githubusercontent.com/edisonlee55/hysts-anime-face-detector/main/assets/input.jpg",
