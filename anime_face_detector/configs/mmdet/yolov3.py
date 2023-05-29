@@ -40,7 +40,7 @@ test_pipeline = [
                   std=[255.0, 255.0, 255.0],
                   to_rgb=True),
              dict(type='Pad', size_divisor=32),
-             dict(type='ImageToTensor', keys=['img']),
+             dict(type='DefaultFormatBundle'),
              dict(type='Collect', keys=['img'])
          ])
 ]
